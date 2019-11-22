@@ -1,12 +1,8 @@
 <template>
   <nav class="footer-nav">
     <p>
-      Proud partner of <a href="https://www.melbournemint.com.au/" target="_blank">Melbourne Mint</a><br>
-      <a href="https://www.freeprivacypolicy.com/privacy/view/2caed92ac1022a3811b3cd6b2dbd7daa" target="_blank">Privacy Policy</a>
+      <a href="https://drive.google.com/file/d/1nARpESxl1udgxr2bTe0JKIBZa1yjUKxz/view" target="_blank">Privacy Policy</a>
     </p>
-    <a href="https://www.melbournemint.com.au/" target="_blank">
-      <img src="../assets/logo-mm.svg">
-    </a>
   </nav>
 </template>
 
