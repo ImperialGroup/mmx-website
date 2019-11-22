@@ -123,9 +123,6 @@ rect {
   opacity: 0;
 }
 
-.anim-image {
-  animation: image-animation 10s infinite alternate ease-in-out;
-}
 
 @keyframes image-animation {
   0% { x: -145px; }

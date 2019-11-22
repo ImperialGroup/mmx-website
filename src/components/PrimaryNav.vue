@@ -1,7 +1,6 @@
 <template>
   <nav class="primary-nav">
     <!-- <custom-switch v-model="crypto" /> -->
-    <a href="https://github.com/MelbourneMintOS" target="_blank">Developer portal</a>
   </nav>
 </template>
 

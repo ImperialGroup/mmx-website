@@ -23,7 +23,7 @@
         <div class="nav-wrapper">
           <dots-nav
             v-model="active"
-            :count="3"
+            :count="0"
             @mouseenter.native="clearActiveInterval"
             @mouseleave.native="setActiveInterval"
           />
@@ -48,23 +48,11 @@ import AppContent from './components/AppContent'
 
 const STATES = [
   {
-    title: 'The future of currency has arrived.',
+    title: 'The future of currency is coming soon.',
     description: 'Meld is a gold-backed digital currency that’s safe, stable and supported by an open network of partners, enabling anyone to reap the benefits of gold and take ownership of their wealth.',
     image: require('./assets/logo-bg-1.jpg'),
     imageLg: require('./assets/logo-bg-1-lg.jpg'),
     colour: '#DE7A7A'
-  }, {
-    title: 'Solidity\r\nmeets liquidity.',
-    description: 'Nothing’s more stable than gold – it can’t be made, printed or inflated. By digitising this precious metal and allowing anyone to pay for absolutely anything with it, Meld is set to become a truly global currency.',
-    image: require('./assets/logo-bg-2.jpg'),
-    imageLg: require('./assets/logo-bg-2-lg.jpg'),
-    colour: '#81C5CA'
-  }, {
-    title: 'Established, not the establishment.',
-    description: 'As a private entity, rather than public, Melbourne Mint are creating a decentralised currency that’s supported by an expanding network of gold partners, making it fairer and more transparent for everyone involved.',
-    image: require('./assets/logo-bg-3.jpg'),
-    imageLg: require('./assets/logo-bg-3-lg.jpg'),
-    colour: '#DBB394'
   }
 ]
 
