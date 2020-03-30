@@ -1,7 +1,7 @@
 <template>
   <form
     :class="{ subscribed }"
-    action="https://marisakatedesigns.us8.list-manage.com/subscribe/post?u=96bfd45008fac9d154cdb7003&amp;id=43858971c6"
+    action="https://marisakatedesigns.us8.list-manage.com/subscribe/post?u=96bfd45008fac9d154cdb7003&amp;id=95d857b3ea"
     method="post"
     @submit.prevent="onSubmit"
   >
