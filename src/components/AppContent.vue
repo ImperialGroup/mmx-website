@@ -6,7 +6,10 @@
     <div class="row">
       <div class="col">
         <transition name="fade-up" mode="out-in">
-          <p :key="description">{{ description }}</p>
+          <p :key="description">{{ description }}
+            <br />
+            <a target="_blank" href="mailto:aj@meldgold.com">CONTACT US</a>
+          </p>
         </transition>
       </div>
       <div class="col">
@@ -71,6 +74,39 @@ p {
   @media (min-width: 1000px) {
     font-size: 1.5rem;
     height: 220px;
+  }
+}
+a {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  color: var(--active-color);
+  font-size: .875rem;
+  font-weight: bold;
+  line-height: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: color .2s, opacity .1s;
+  font-family: "cerapro", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:active {
+    opacity: .7;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  form:invalid & {
+    opacity: .5;
+    cursor: not-allowed;
   }
 }
 

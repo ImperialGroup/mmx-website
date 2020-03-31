@@ -123,7 +123,6 @@ rect {
   opacity: 0;
 }
 
-
 @keyframes image-animation {
   0% { x: -145px; }
   100% { x: 0px; }
