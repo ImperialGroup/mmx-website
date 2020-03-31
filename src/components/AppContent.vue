@@ -7,7 +7,6 @@
       <div class="col">
         <transition name="fade-up" mode="out-in">
           <p :key="description">{{ description }}
-            <br />
             <a target="_blank" href="mailto:aj@meldgold.com">CONTACT US</a>
           </p>
         </transition>
@@ -95,6 +94,7 @@ a {
   font-family: "cerapro", Arial, Helvetica, sans-serif;
   text-decoration: none;
   cursor: pointer;
+  margin-top: 6px;
 
   &:active {
     opacity: .7;
