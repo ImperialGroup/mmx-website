@@ -19,3 +19,11 @@ npm run build
 ```
 npm run lint
 ```
+
+### Deploy to production
+This will deploy to the github page, using the branch: `gh-pages`    
+Once this is complete, you need to log into cloudflare and clear the cashe.    
+Once this is complete, check the website: [meld.gold](https://meld.gold)   
+```
+./deploy.sh
+```
